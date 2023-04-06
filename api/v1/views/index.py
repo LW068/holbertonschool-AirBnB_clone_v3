@@ -34,4 +34,3 @@ def api_stats():
         "users": storage.count(User),
     }
     return jsonify(stats)
-
